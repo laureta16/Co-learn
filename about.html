@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      
+    </style>
+</head>
+<body>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+    }
+    
+  
+    .column img {
+      opacity: 0.8; 
+      cursor: pointer; 
+    }
+    
+    .column img:hover {
+      opacity: 1;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .container {
+      position: relative;
+      display: none;
+    }
+    
+ 
+    #imgtext {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: white;
+      font-size: 20px;
+    }
+    
+
+    .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div style="text-align:center">
+      <h2 style="color: rgb(33, 16, 44);font-weight: 900;">MOMENTS FROM OUR ONLINE SESSIONS</h2>
+    </div>
+    
+    <!-- The four columns -->
+    <div class="row">
+      <div class="column">
+        <img src="GettyImages-1072206958_2.jpg" alt="" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Learn Online Reduced 1302689578.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="onlinemom.jpeg" alt="" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="pexels-julia-m-cameron-4144222-scaled.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    
+    
+    
+    </script>
+          
+</body>
+</html>
